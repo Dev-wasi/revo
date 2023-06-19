@@ -1,0 +1,567 @@
+*{
+  padding: 0;
+  margin: 0;
+  color: black;
+  
+}
+body{
+  background: #55343D;
+}
+
+.bg_img{
+  background-image:url("a/digital-building-twin-visual-rgb 1.png");
+  position: absolute;
+  width: 1440px;
+  height: 694px;
+  left: 6px;
+  top: -12px;
+}
+
+.container{
+  box-sizing: border-box;
+  position: absolute;
+  width: 1212px;
+  height: 78px;
+  left: 114px;
+  top: 44px;
+  background: #FFFFFF;
+  border: 4px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13);
+  border-radius: 50px;
+}
+span{
+  position: absolute;
+  width: 134px;
+  height: 46px;
+  left: 40px;
+  top: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.navbar{
+  height: 100px;
+  margin: 20px 200px;
+}
+.navbar a{
+  color: #000000;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+button{
+  position: absolute;
+  width: 176px;
+  height: 45px;
+  left: 950px;
+  top: 10px;
+  color: #FFFFFF;
+  background: linear-gradient(180deg, #B75CFF 0%, #671AE4 144.74%);
+  border-radius: 10px;
+}
+
+button a{
+  position: absolute;
+  width: 134px;
+  height: 33px;
+  left: 1119px;
+  top: 68px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+.hero_section{
+  position: absolute;
+  width: 669px;
+  height: 235px;
+  left: 10px;
+  top: 230px;
+}
+
+.hero_section .big_text{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 61px;
+  line-height: 74px;
+}
+.hero_section .big_text p{
+  color: #FFFFFF;
+}
+
+.hero_section .small_text p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  
+}
+
+#Buy_Presale{
+  position: absolute;
+  width: 176px;
+  height: 45px;
+  left: 5px;
+  top: 250px;
+}
+
+#Whitepaper{
+  position: absolute;
+  width: 176px;
+  height: 45px;
+  left: 250px;
+  top: 250px;
+}
+.counter{
+  position: absolute;
+  width: 400px;
+  height: 120px;
+  left: 420px;
+  top: 415px;
+  background: #D9D9D9;  
+}
+#Presale{
+  position: absolute;
+  width: 250px;
+  height: 60px;
+  left: 70px;
+  top: -40px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 25px;
+  line-height: 51px;
+}
+
+.counter-big{
+  height: 10px;
+  width: auto;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 30px;
+}
+.counter_small{
+  font-size: 10px;
+  text-align: center;
+  padding-top: 20px;
+  
+}
+
+.counter_small p{
+  word-spacing: 12px;
+}
+
+/*.counter p{
+  text-align: center;
+  top: 100px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 51px;
+  padding-top: 30px;
+  
+}
+
+.counter_text p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 10px;
+  line-height: 24px;
+}*/
+.heading_mid{
+  position: absolute;
+  width: 348px;
+  height: 69px;
+  top: 200px;
+  left: 20px;
+}
+
+.heading_mid h3{
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 57px;
+  line-height: 69px;
+}
+.logo-container {
+  display: inline-flex;
+  justify-content: center;
+  padding-top: 180px;
+
+}
+
+.box1 {
+  background-image:url("a/alphr.png") ;
+  width: 222px;
+  height: 108px;
+  background-color: #99898c;
+  margin-right: 20px;
+  margin-left: -400px;
+
+}
+.box2 {
+  background-image:url("a/dailycoin.png") ;
+  width: 222px;
+  height: 108px;
+  background-color: #99898c;
+  margin-right: 20px;
+
+}
+.box3{
+  background-image:url("a/newsbtc.png") ;
+  width: 222px;
+  height: 108px;
+  background-color: #99898c;
+  margin-right: 20px;
+}
+.box4{
+  background-image:url("a/insider.png");
+  width: 222px;
+  height: 108px;
+  background-color: #99898c;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+.aboutus{
+  position: absolute;
+  width: 284px;
+  height: 70px;
+  left: 60px;
+  top: 500px;
+}
+.aboutus h3{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 57px;
+  line-height: 69px;
+  color: white;
+}
+.aboutus p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 10px;
+  line-height: 28px;
+  text-align: center;
+  width: 300px;
+  word-spacing: 2px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 13px;
+  }
+  .img-nft{
+    position: absolute;
+    width: 555px;
+    height: 755px;
+    left: -500px;
+    top: 700px;
+    background-image: url("a/5348934 1.png");
+  }
+.content-right{
+  position: absolute;
+  width: 452px;
+  height: 70px;
+  left: 160px;
+  top: 850px;
+}
+.content-right h3{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.content-right p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #D9D9D9;
+}
+#nft-button{
+  position: absolute;
+  width: 174px;
+  height: 58px;
+  left: 0px;
+  top: 270px;
+}
+.img-nft-right{
+  position: absolute;
+  width: 517.43px;
+  height: 755px;
+  left: 200px;
+  top: 1600px;
+  background-image: url("a/442 1.png");
+}
+.content-left{
+position: absolute;
+width: 706px;
+height: 434px;
+left: -500px;
+top: 1700px;
+}
+.content-left h3{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+text-align: left;
+color: #FFFFFF;
+}
+.content-left p{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #D9D9D9;
+}
+#nft-button{
+position: absolute;
+width: 174px;
+height: 58px;
+left: 0px;
+top: 270px;
+}
+
+.img-nft-third{
+  position: absolute;
+  width: 510px;
+  height: 755px;
+  left: -500px;
+  top: 2500px;
+  background-image: url("a/hand-pointing-currency-blockchain-technology-background 1.png");
+}
+.content-third{
+position: absolute;
+width: 745px;
+height: 455px;
+left: 160px;
+top: 2800px;
+}
+.content-third h3{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 40px;
+text-align: left;
+color: #FFFFFF;
+}
+.content-third p{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #D9D9D9;
+}
+#nft-button{
+position: absolute;
+width: 174px;
+height: 58px;
+left: 0px;
+top: 270px;
+}
+.logo-down{
+  position: absolute;
+  width: 189px;
+  height: 71px;
+  left: 70px;
+  top: 3300px;
+}
+.logo-down h3{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.logo-down h2{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 69px;
+  color: #FFFFFF;
+  text-align: right;
+}
+.back-toke-img{
+  background-image: url("a/3199 1.png");
+  border-radius: 0px, 0px, 52px, 52px;
+  width: 1400px;
+  height: 595px;
+  top: 3500px;
+  left: -600px;
+  position: absolute;
+}
+.toke-parag{
+  position: absolute;
+  width: 593px;
+  height: 49px;
+  left: -500px;
+  top: 3700px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 40px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+#tokenom{
+  position: absolute;
+  width: 300px;
+  height: 60px;
+  top: 250px;
+  left: 42px;
+}
+.front-toke-img{
+  background-image: url();
+}
+.logo-footer{
+  position: absolute;
+  width: 189px;
+  height: 71px;
+  left: 70px;
+  top: 4900px;
+}
+.logo-footer span{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+
+  color: #FFFFFF;
+  }
+.logo-footer p{
+  position: absolute;
+  width: 477px;
+  height: 70px; 
+  left: 40px;
+  top: 90px;
+  text-align: left;
+  color: #BDB9B9;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+.quick-links span{
+  position: absolute;
+  width: 245px;
+  height: 44px;
+  top: 4920px;
+  left: 660px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+.quick-links p{
+  position: absolute;
+  width: 157px;
+  height: 174px;
+  left: 699px;
+  top: 5000px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #BDB9B9;
+  
+
+}
+.contact span{
+  position: absolute;
+  width: 245px;
+  height: 44px;
+  left: 1014px;
+  top: 4920px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+.contact p{
+  position: absolute;
+  width: 205px;
+  height: 169px;
+  left: 1089px;
+  top: 5000px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #BDB9B9;
+}
+.reserve p{
+  position: absolute;
+  width: 477px;
+  height: 56px;
+  left: 499px;
+  top: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #BDB9B9;
+
+}
+.reserve{
+  position: absolute;
+  width: 1400px;
+  height: 72px;
+  left: -5px;
+  top: 990px;
+  background: rgba(217, 217, 217, 0.5);
+  border-radius: 10px;
+  top: 5100px;
+}
